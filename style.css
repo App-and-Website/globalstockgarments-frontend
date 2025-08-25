@@ -273,7 +273,7 @@ font-weight: 500!important;
    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 .top_bar .email{
     display: none!important;
 }
@@ -288,6 +288,10 @@ font-weight: 500!important;
     }
     .lot_item{
     grid-template-columns: 1fr;
+    }
+    .main-header .outer-box {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
