@@ -263,6 +263,16 @@ font-weight: 500!important;
     margin: 20px;
 }
 
+.contact_page_form{
+    background: #faf7f4;
+    padding: 40px 0;
+}
+
+.stocpagecontact .contact-section{
+    background: #faf7f4;
+    padding: 40px 0;
+}
+
 @media screen and (max-width: 991px) {
     .top_bar .social-links{
         display: none;
