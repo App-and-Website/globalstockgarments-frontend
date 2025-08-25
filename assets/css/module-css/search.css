@@ -1,0 +1,183 @@
+
+/** search-section **/
+
+.search-section{
+  position: relative;
+  padding: 0px 135px;
+}
+
+.search-section .outer-container{
+  position: relative;
+  background: #F3F3F3;
+  padding: 30px;
+}
+
+.search-section .outer-container form{
+  position: relative;
+  padding-right: 161px;
+}
+
+.search-section .outer-container form .message-btn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.search-section .outer-container form .form-group{
+  position: relative;
+  float: left;
+  width: 20%;
+  margin-bottom: 0px;
+}
+
+.search-section .outer-container form .form-group .select-box{
+  position: relative;
+  min-height: 50px;
+  margin-right: 20px;
+}
+
+.search-section .outer-container form .form-group .select-box .nice-select{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  line-height: 54px;
+  padding: 0px 20px;
+  font-size: 16px;
+  color: var(--title-color);
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.search-section .outer-container form .form-group .select-box .nice-select:before{
+  color: var(--title-color);
+  right: 20px;
+}
+
+.search-section .outer-container form .theme-btn{
+  padding: 13px 33px;
+  color: #fff;
+}
+
+.search-section .outer-container form .theme-btn span{
+  background: var(--title-color);
+}
+
+
+/** rtl-css **/
+
+.rtl .search-section .outer-container form .form-group .select-box .nice-select:before{
+  right: inherit;
+  left: 20px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+  .search-section{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .search-section .outer-container form .form-group{
+    width: 33.333%;
+    margin-bottom: 20px;
+  }
+
+  .search-section .outer-container{
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .search-section .outer-container form .form-group{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+ .search-section .outer-container form .form-group{
+  width: 100%;
+  float: none;
+ }
+
+ .search-section .outer-container form{
+  padding-right: 0px;
+ }
+
+ .search-section .outer-container form .message-btn{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+ }
+
+ .search-section .outer-container form .message-btn .theme-btn{
+  width: 100%;
+ }
+
+ .search-section .outer-container form .form-group .select-box{
+  margin-right: 0px;
+ }
+
+ .search-section .outer-container{
+  padding-bottom: 30px;
+ }
+
+ .banner-style-three .slide-item{
+  padding-right: 0px;
+ }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

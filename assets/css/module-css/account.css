@@ -1,0 +1,336 @@
+
+/** account-section **/
+
+.account-section{
+  position: relative;
+}
+
+.account-section .inner-container{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 5px;
+  padding-left: 420px;
+  min-height: 600px;
+}
+
+.account-section .inner-container .account-info{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 330px;
+  height: 100%;
+  border-right: 1px solid rgba(229, 229, 229, 1);
+  padding: 50px 40px;
+}
+
+.account-section .inner-container .account-info .image-box{
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 23px;
+}
+
+.account-section .inner-container .account-info .image-box img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.account-section .inner-container .account-info h4{
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 1px;
+}
+
+.account-section .inner-container .account-info a{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--text-color);
+}
+
+.account-section .inner-container .account-info a:hover{
+
+}
+
+.account-section .inner-container .tab-btns li{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: 500;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.account-section .inner-container .tab-btns li:last-child{
+  margin-bottom: 0px;
+}
+
+.account-section .inner-container .tab-btns li.active-btn{
+
+}
+
+.account-section .payment-option .bank-payment{
+  position: relative;
+  display: block;
+  background: rgba(247, 247, 247, 1);
+  padding: 22px 30px;
+  margin-bottom: 30px;
+}
+
+.account-section .payment-option .bank-payment p{
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+.account-section .payment-option .check-box label{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.account-section .payment-option .check-box label:before{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  top: 5px;
+  background: transparent !important;
+}
+
+.account-section .payment-option .check-box label:after{
+  background-image: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 3px;
+  top: 8px;
+}
+
+.account-section .tabs-content{
+  padding: 50px 120px 50px 0px;
+}
+
+.account-section .tabs-content h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.account-section .personal-info h3{
+  margin-bottom: 8px;
+}
+
+.account-section .personal-info p{
+  margin-bottom: 22px;
+}
+
+.account-section .personal-info .single-item{
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 13px 20px;
+  margin-bottom: 30px;
+}
+
+.account-section .personal-info .single-item h6{
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
+.account-section .personal-info .single-item span{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account-section .personal-info .single-item button{
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.account-section .personal-info .single-item span a{
+  display: inline-block;
+  color: var(--text-color);
+}
+
+.account-section .personal-info .single-item span a:hover{
+
+}
+
+.account-section .history-box .single-history{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account-section .history-box .single-history .product-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.account-section .history-box .single-history .product-box .image-box{
+  position: relative;
+  display: inline-block;
+  width: 67px;
+  height: 67px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.account-section .history-box .single-history .product-box .image-box img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.account-section .history-box .single-history .product-box .product-info h6{
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.account-section .history-box .single-history .product-box .product-info span{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+
+.account-section .history-box .single-history .product-box .product-info h4{
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(233, 37, 48, 1);
+}
+
+
+/** rtl-css **/
+
+.rtl .account-section .payment-option .check-box label:after{
+  left: inherit;
+  right: 3px;
+}
+
+.rtl .account-section .history-box .single-history .product-box .image-box{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.rtl .account-section .personal-info .single-item button{
+  right: inherit;
+  left: 20px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .account-section .inner-container{
+    padding-left: 370px;
+  }
+
+  .account-section .tabs-content{
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .account-section .inner-container{
+    padding-left: 0px;
+    min-height: auto;
+  }
+
+  .account-section .inner-container .account-info{
+    position: relative;
+    width: 100%;
+  }
+
+  .account-section .tabs-content{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .account-section .history-box .single-history,
+  .account-section .history-box .single-history .product-box{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 499px){
+  .account-section .inner-container .account-info{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

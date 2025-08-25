@@ -1,0 +1,156 @@
+
+/** page-title **/
+
+.page-title{
+  position: relative;
+}
+
+.page-title .content-box{
+  position: relative;
+  padding: 11px 0px;
+}
+
+.page-title .content-box .border-line{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  background: #E5E5E5;
+}
+
+.page-title .content-box .bread-crumb{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.page-title .content-box .bread-crumb li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  margin-right: 15px;
+}
+
+.page-title .content-box .bread-crumb li:last-child{
+  margin: 0px !important;
+}
+
+.page-title .content-box .bread-crumb li a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.page-title .content-box .bread-crumb li a:hover{
+
+}
+
+.page-title .content-box .bread-crumb li:before{
+  position: absolute;
+  content: '';
+  background: var(--title-color);
+  width: 5px;
+  height: 1px;
+  top: 15px;
+  right: -10px;
+}
+
+.page-title .content-box .bread-crumb li:last-child:before{
+  display: none;
+}
+
+.page-title-two{
+  position: relative;
+  padding: 72px 0px 52px 0px;
+}
+
+.page-title-two h1{
+  font-size: 36px;
+  line-height: 42px;
+}
+
+
+/** rtl-css **/
+
+.rtl .page-title .content-box .bread-crumb li{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.rtl .page-title .content-box .bread-crumb li:before{
+  right: inherit;
+  left: -10px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
