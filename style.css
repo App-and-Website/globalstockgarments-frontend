@@ -250,6 +250,18 @@ font-weight: 500!important;
 }
 
 
+.hero_sec .content-box {
+    max-width: 100%;
+}
+.hero_sec .content-box p  {
+    max-width: 100%;
+}
+
+.objitem{
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+}
 
 @media screen and (max-width: 991px) {
     .top_bar .social-links{
